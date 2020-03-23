@@ -38,6 +38,7 @@ export PYTHONPATH=$INSTALL_DIR/lib/python2.7/site-packages:$PYTHONPATH
 python setup.py install --prefix=$INSTALL_DIR
 
 # position the ups files
+cd ../..
 mkdir -p $INSTALL_DIR/ups
 mkdir -p $PRODUCT_DIR/xgboost/${UPS_VERSION}.version
 cp ups $INSTALL_DIR/ups/
