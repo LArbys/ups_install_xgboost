@@ -3,9 +3,13 @@
 XGBOOST_VERSION=v0.82
 UPS_VERSION=v0_82
 FLAVOR=Linux64bit+3.10-2.17
-PRODUCT_DIR=/uboone/app/users/tmw/ups_dev/products
+#PRODUCT_DIR=/uboone/app/users/tmw/ups_dev/products
+PRODUCT_DIR=/cvmfs/uboone.opensciencegrid.org/products
 
 INSTALL_DIR=$PRODUCT_DIR/xgboost/${UPS_VERSION}/${FLAVOR}/
+
+# setup cvmfs products folder
+source /cvmfs/uboone.opensciencegrid.org/products/setup_uboone.sh
 
 # setup cmake
 setup cmake v3_13_2 -q e17:prof
