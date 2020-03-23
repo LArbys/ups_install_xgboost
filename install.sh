@@ -1,7 +1,7 @@
 #!/bin/bash
 
-XGBOOST_VERSION=v1.0.2
-UPS_VERSION=v1_0_2
+XGBOOST_VERSION=v0.82
+UPS_VERSION=v0_82
 FLAVOR=Linux64bit+3.10-2.17
 PRODUCT_DIR=/uboone/app/users/tmw/ups_dev/products
 
