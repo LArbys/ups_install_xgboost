@@ -1,0 +1,15 @@
+FILE = version
+PRODUCT = xgboost
+VERSION = v1_0_2
+
+#*************************************************
+#
+FLAVOR = Linux64bit+3.10-2.17
+QUALIFIERS = "e17:prof"
+  DECLARER = tmw
+  DECLARED = 2020-03-20 17.45.43 GMT
+  MODIFIER = tmw
+  MODIFIED = 2020-03-20 17.45.43 GMT
+  PROD_DIR = xgboost/v1_0_2/Linux64bit+3.10-2.17_e17_prof
+  UPS_DIR = ups
+  TABLE_FILE = xgboost.table
